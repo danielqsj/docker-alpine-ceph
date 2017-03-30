@@ -10,8 +10,8 @@ This image is based on Alpine Linux image, which is only a 5MB image, and contai
 
 Download size of this image is only:
 
-[![](https://images.microbadger.com/badges/version/danielqsj/alpine-ceph.svg)](https://microbadger.com/images/danielqsj/alpine-ceph "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/danielqsj/alpine-ceph.svg)](https://microbadger.com/images/danielqsj/alpine-ceph "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/danielqsj/alpine-ceph:1.1.svg)](https://microbadger.com/images/danielqsj/alpine-ceph:1.1 "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/danielqsj/alpine-ceph:1.1.svg)](https://microbadger.com/images/danielqsj/alpine-ceph:1.1 "Get your own image badge on microbadger.com")
 
 Usage Example
 -------------
