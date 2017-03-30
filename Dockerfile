@@ -2,13 +2,13 @@ FROM alpine:3.5
 MAINTAINER Daniel Qian <qsj.daniel@gmail.com>
 
 RUN	echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories && \
-	apk update && \
+	apk upgrade --update --no-cache && \
 	apk add --update --no-cache \
 		bash \
 		bash-completion \
 		wget \
 		curl \
-		libcephfs-dev \
+		libcephfs \
 		librbd-dev \
 		librados-dev \
 		python \
