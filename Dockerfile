@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:3.4
 MAINTAINER Daniel Qian <qsj.daniel@gmail.com>
 
 RUN	echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories && \
