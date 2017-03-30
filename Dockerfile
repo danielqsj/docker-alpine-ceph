@@ -8,9 +8,10 @@ RUN	echo 'http://dl-cdn.alpinelinux.org/alpine/edge/testing' >> /etc/apk/reposit
 		bash-completion \
 		wget \
 		curl \
-		libcephfs \
+		libcephfs-dev \
 		librbd-dev \
 		librados-dev \
 		python \
 		py-rados \
-		py-rbd
+		py-rbd \
+		py-cephfs
