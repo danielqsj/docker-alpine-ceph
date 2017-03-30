@@ -22,6 +22,7 @@ Download size of this image is only:
 ```Dockerfile
 FROM danielqsj/alpine-ceph
 
+COPY ./ceph_config /etc/ceph
 COPY ./my_app /usr/local/bin/my_app
 ```
 
