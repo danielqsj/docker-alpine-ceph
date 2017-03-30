@@ -16,8 +16,8 @@ This image is intended to be a base image for your projects, so you may use it l
 
 Download size of this image is only:
 
-[![](https://images.microbadger.com/badges/version/danielqsj/alpine-ceph.svg)](https://microbadger.com/images/danielqsj/alpine-ceph "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/danielqsj/alpine-ceph.svg)](https://microbadger.com/images/danielqsj/alpine-ceph "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/danielqsj/alpine-ceph:1.0.svg)](https://microbadger.com/images/danielqsj/alpine-ceph:1.0 "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/danielqsj/alpine-ceph:1.0.svg)](https://microbadger.com/images/danielqsj/alpine-ceph:1.0 "Get your own image badge on microbadger.com")
 
 ```Dockerfile
 FROM danielqsj/alpine-ceph
