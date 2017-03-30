@@ -1,7 +1,7 @@
 # alpine-ceph
-[![Docker Stars](https://img.shields.io/docker/stars/danielqsj/docker-alpine-ceph.svg?style=flat)](https://hub.docker.com/r/danielqsj/docker-alpine-ceph/)
-[![Docker Pulls](https://img.shields.io/docker/pulls/danielqsj/docker-alpine-ceph.svg?style=flat)](https://hub.docker.com/r/danielqsj/docker-alpine-ceph/)
-[![Docker Automated build](https://img.shields.io/docker/automated/danielqsj/docker-alpine-ceph.svg?style=flat)](https://hub.docker.com/r/danielqsj/docker-alpine-ceph/)
+[![Docker Stars](https://img.shields.io/docker/stars/danielqsj/alpine-ceph.svg?style=flat)](https://hub.docker.com/r/danielqsj/alpine-ceph/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/danielqsj/alpine-ceph.svg?style=flat)](https://hub.docker.com/r/danielqsj/alpine-ceph/)
+[![Docker Automated build](https://img.shields.io/docker/automated/danielqsj/alpine-ceph.svg?style=flat)](https://hub.docker.com/r/danielqsj/alpine-ceph/)
 
 Alpine Ceph library Docker image
 =========================================
