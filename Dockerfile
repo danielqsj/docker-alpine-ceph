@@ -1,4 +1,4 @@
-FROM alpine:3.5
+FROM alpine:edge
 MAINTAINER Daniel Qian <qsj.daniel@gmail.com>
 
 RUN ALPINE_GLIBC_BASE_URL="https://github.com/sgerrand/alpine-pkg-glibc/releases/download" && \
@@ -25,7 +25,8 @@ RUN ALPINE_GLIBC_BASE_URL="https://github.com/sgerrand/alpine-pkg-glibc/releases
         python \
         py-rados \
         py-rbd \
-        py-cephfs && \
+        py-cephfs \
+		nspr && \
     \
     rm "/etc/apk/keys/sgerrand.rsa.pub" && \
     /usr/glibc-compat/bin/localedef --force --inputfile POSIX --charmap UTF-8 C.UTF-8 || true && \
